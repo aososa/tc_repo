@@ -16,7 +16,7 @@ var requestStr = "http://randomword.setgetgo.com/get.php";
 }
 
 function displayRandomWord(json_data) {
-	document.getElementById("random_place").innerHTML = json_data.Word;
+	document.getElementById("random_place").innerHTML = "<font color=blue>"+json_data.Word+"</font>";
 }
 </script>
 </head>
@@ -24,5 +24,5 @@ function displayRandomWord(json_data) {
 <?php
 echo "Your random word is... <div id='random_place'>NULL</div><br />";
 ?>
-<input type="button" onclick="generateRandom()" value="Click to generate random word
-">
+
+<input type="button" onclick="generateRandom()" value="Click to generate random word">
