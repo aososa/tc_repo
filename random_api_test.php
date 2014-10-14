@@ -24,4 +24,5 @@ function displayRandomWord(json_data) {
 <?php
 echo "Your random word is... <div id='random_place'>NULL</div><br />";
 ?>
-<p onclick="generateRandom()">Click to generate random word</p>
+<input type="button" onclick="generateRandom()" value="Click to generate random word
+">
